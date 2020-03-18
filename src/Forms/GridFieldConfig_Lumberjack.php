@@ -37,6 +37,7 @@ class GridFieldConfig_Lumberjack extends GridFieldConfig
         $this->addComponent(new GridFieldSiteTreeEditButton());
         $this->addComponent(new GridFieldPageCount('toolbar-header-right'));
         $this->addComponent($pagination = new GridFieldPaginator($itemsPerPage));
+	$this->addComponent(new GridFieldSiteTreePublishedDate());
         $this->addComponent(new GridFieldSiteTreeState());
 
         $pagination->setThrowExceptionOnBadDataType(true);
