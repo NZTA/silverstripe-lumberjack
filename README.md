@@ -1,3 +1,10 @@
+> [!CAUTION]
+> # Abandoned/redundant fork
+>
+> Use the "upstream" module instead. This fork offers neither fixes nor extra functionality.
+> 
+> https://github.com/silverstripe/silverstripe-lumberjack
+
 # SilverStripe Lumberjack
 
 [![Build Status](https://travis-ci.org/silverstripe/silverstripe-lumberjack.svg?branch=master)](https://travis-ci.org/silverstripe/silverstripe-lumberjack)
